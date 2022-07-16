@@ -1,13 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap);
+footer,
+nav a:hover {
+    font-weight: 700;
+}
+
+.jumbotron,
+.profile header,
+footer {
+    text-align: center;
+}
+
+footer,
+nav {
+    background-color: #00a2c6;
+}
+
+header,
+nav li {
+    display: inline;
+}
+
 main {
     padding: 20px;
     overflow: auto;
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Quicksand, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.card,
+footer {
+    padding: 20px;
 }
 
 h2,
@@ -15,26 +41,8 @@ h3 {
     color: #00a2c6;
 }
 
-nav a {
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-nav a:hover {
-    font-weight: bold;
-}
-
-.profile header {
-    text-align: center;
-}
-
 footer {
-    padding: 20px;
-    color: white;
-    background-color: #00a2c6;
-    text-align: center;
-    font-weight: bold;
+    color: #fff;
 }
 
 .featured-image {
@@ -51,34 +59,32 @@ footer {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    padding: 20px;
     margin-top: 20px;
 }
 
 .jumbotron {
     padding: 60px;
     background-color: #00c8eb;
-    text-align: center;
     font-size: 20px;
-    color: white;
+    color: #fff;
 }
 
 nav li {
-    display: inline;
     list-style-type: none;
     margin-right: 20px;
 }
 
 nav {
-    background-color: #00a2c6;
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 #content {
