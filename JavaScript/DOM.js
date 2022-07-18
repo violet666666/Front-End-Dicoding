@@ -1,0 +1,4 @@
+/*
+Sebelumnya disebutkan DOM Scripting, tapi sebenarnya apa itu DOM? Document Object Model (DOM) memberikan kita jalan untuk mengakses dan memanipulasi konten pada dokumen. DOM merupakan application programming interface (API) untuk HTML, XML atau SVG. Dengan DOM berkas HTML dapat direpresentasikan dalam bentuk objek yang dapat diakses oleh JavaScript (sebenarnya tidak hanya oleh JavaScript. DOM juga dapat diakses oleh bahasa pemrograman lain). Melalui DOM inilah JavaScript dapat memanipulasi elemen beserta atributnya pada HTML.
+Struktur objek DOM digambarkan seperti struktur node tree (pohon simpul). Disebut pohon karena strukturnya seperti pohon dengan batang induk tunggal yang bercabang menjadi beberapa cabang anak, masing-masing memiliki daun. Pada kasus ini induk tunggal batang merupakan elemen <html>, cabangnya merupakan anak elemen di dalamnya, dan daun adalah konten di dalam elemen tersebut.
+*/
