@@ -3,3 +3,47 @@
     margin: 0;
     font-family: 'Quicksand', sans-serif;
 }
+
+header {
+    height: 70px;
+    border: 1px solid;
+}
+
+header h1 {
+    border: 1px solid;
+    display: inline-block;
+    float: left;
+    padding: 15px 24px;
+    text-transform: uppercase;
+}
+
+header h1 a {
+    transition: .3s;
+}
+
+header h1 a:hover {
+    color: #f84744;
+}
+
+header ul {
+    border: 1px solid;
+    float: right;
+}
+
+header ul li {
+    border: 1px solid;
+    padding: 24px;
+    display: inline-block;
+}
+
+header ul li a {
+    transition: .3s;
+}
+
+header ul li a:hover {
+    color: #f84744;
+}
+
+a {
+    text-decoration: none;
+}
