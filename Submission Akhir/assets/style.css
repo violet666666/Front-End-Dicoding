@@ -62,4 +62,18 @@ a {
 
 .mobile-menu {
     float: right;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
+    header ul {
+        display: none;
+    }
 }
