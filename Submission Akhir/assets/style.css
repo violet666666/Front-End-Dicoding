@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+    color: #333;
 }
 
 header {
@@ -95,6 +96,46 @@ a {
 
 #check:checked~.sidebar {
     left: 0;
+}
+
+.banner {
+    background-color: #1f6886;
+    padding: 150px 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.banner img {
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #ddd;
+    margin-bottom: 10px;
+}
+
+.banner h2,
+.banner p,
+.banner span {
+    color: #fff;
+}
+
+.banner h2 {
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.banner-left {
+    padding-left: 24px;
+}
+
+section h3 {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20px;
 }
 
 @media (max-width: 768px) {
