@@ -6,11 +6,9 @@
 
 header {
     height: 70px;
-    border: 1px solid;
 }
 
 header h1 {
-    border: 1px solid;
     display: inline;
     float: left;
     padding: 15px 24px;
@@ -26,12 +24,10 @@ header h1 a:hover {
 }
 
 header ul {
-    border: 1px solid;
     float: right;
 }
 
 header ul li {
-    border: 1px solid;
     padding: 24px;
     display: inline-block;
 }
@@ -51,7 +47,6 @@ a {
 .container {
     width: 90%;
     margin: 0 auto;
-    border: 1px solid;
 }
 
 .container:after {
@@ -63,10 +58,43 @@ a {
 .mobile-menu {
     float: right;
     display: none;
+    padding: 18px;
+}
+
+.mobile-menu:hover {
+    cursor: pointer;
 }
 
 #check {
     display: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    width: 300px;
+    background-color: rgba(16, 47, 80, .9);
+    transition: .3s;
+}
+
+.sidebar ul li a {
+    color: #fff;
+}
+
+.sidebar ul li {
+    padding: 24px;
+    transition: .3s;
+    transition-property: background-color;
+}
+
+.sidebar ul li:hover {
+    background-color: #f84744;
+}
+
+#check:checked~.sidebar {
+    left: 0;
 }
 
 @media (max-width: 768px) {
