@@ -172,6 +172,37 @@ section h3::after {
     background-color: #f9f9f9;
 }
 
+#skills .bar {
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 5px 0 20px 0;
+}
+
+.bar .nilai {
+    height: 30px;
+    background-color: #f84744;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 70%;
+}
+
+.js {
+    width: 60%;
+}
+
+.cpp {
+    width: 70%;
+}
+
 @media (max-width: 768px) {
     .mobile-menu {
         display: block;
