@@ -109,9 +109,7 @@ section {
 }
 
 .banner img {
-    width: 100px;
-    border-radius: 10px;
-    box-shadow: 0 3px 5px #ddd;
+    width: 160px;
     margin-bottom: 10px;
 }
 
