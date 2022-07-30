@@ -76,7 +76,7 @@ a {
     bottom: 0;
     left: -300px;
     width: 300px;
-    background-color: rgba(16, 47, 80, .9);
+    background-color: rgba(31, 104, 134, .9);
     transition: .3s;
     z-index: 9999;
 }
@@ -100,7 +100,7 @@ a {
 }
 
 .banner {
-    background-color: #1f6886;
+    background-color: rgba(35, 117, 151);
     padding: 150px 0;
 }
 
